@@ -14,6 +14,7 @@ namespace Logical_Prgms
             Console.WriteLine("5.Square Root");
             Console.WriteLine("6.Decimal To Binary Conversion");
             Console.WriteLine("7.Binary");
+            Console.WriteLine("8.SimulateStopwatch");
             Console.Write("Enter the Option : ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -38,6 +39,9 @@ namespace Logical_Prgms
                     break;
                 case 7:
                     Binary.Readinput();
+                    break;
+                case 8:
+                    SimulateStopwatch.Readinput();
                     break;
                 default:
                     Console.WriteLine("Invalid options");
